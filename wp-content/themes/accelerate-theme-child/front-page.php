@@ -27,7 +27,7 @@ get_header(); ?>
 <section class="featured-work">
 	<div class="site-content">
 			<h5>FEATURED WORK</h5>
-			<ul class="homepage-geatured">
+			<ul class="homepage-featured">
 				<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 					<?php while ( have_posts() ) : the_post();
 						$image_1 = get_field("image_1");

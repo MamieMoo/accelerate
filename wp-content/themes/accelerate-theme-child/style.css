@@ -114,3 +114,31 @@ div.case-study-images  img{
   padding-right:11px;
 
 }
+.nf-form-cont {
+  width:60%;
+}
+
+.nf-form-cont form{
+  align:"center";
+}
+.nf-form-cont input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    float: left;
+}
+.nf-field-element input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    float: left;
+}
+.nf-form-cont input[type=button] {
+      background-color: #45ac9d;
+      color: white;
+      font-family: "montserrat";
+      font-size: 18px;
+      font-weight: bold;
+      padding: 20px 100px ;
+      text-align: center;
+      float: right;
+
+  }

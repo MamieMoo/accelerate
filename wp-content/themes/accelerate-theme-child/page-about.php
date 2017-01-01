@@ -23,7 +23,7 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
 </section>
-<section class="about-page">
+<section class="about-page_outer">
 	<div class="blurb">
 		<h2>OUR SERVICES</h2>
 		<h5>We take pride in our clients and the content we create for them. <br>Here's a brief overview of our offered services.</h5>

@@ -167,14 +167,28 @@ div.case-study-images  img{
       margin: 70px 200px 70px 200px;
       line-height: 35px;
   }
-  .about-page{
-    text-align: center;;
+  .about-page-outer{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     font-size: 14px;
     color: darkgray;
     font-weight: normal;
     line-height: normal;
     font-family: 'cambria', sans-serif;
-    width:100%;
+    width:75%;
+  }
+  .about-page{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color: darkgray;
+    font-weight: normal;
+    line-height: normal;
+    font-family: 'cambria', sans-serif;
+    width:75%;
   }
 
 .about-page h1{
@@ -191,15 +205,26 @@ div.case-study-images  img{
     line-height: 1.7;
     font-family: 'tacoma', sans-serif;
 }
-.about-page-images{
-display: inline-block;
-vertical-align: baseline;
-padding:20px;
+
+.about-page:nth-child(even) .about-page-images {
+    float: right;
+    display: inline-block;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.about-page:nth-child(odd) .about-page-images {
+      float: left;
+      display: inline-block;
+      padding-top:10px;
+      padding-bottom: 10px;
+
 }
 div.about-text-block{
-width:50%;
+width:70%;
 display: inline-block;
-vertical-align: middle;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
 text-align: left;
 padding:0px;
 }
@@ -209,6 +234,7 @@ padding:0px;
   font-weight: bold;;
   line-height: normal;
   font-family: 'cambria', sans-serif;
+  text-align: center;
 }
 .blurb h5{
   font-size: 16px;
@@ -216,4 +242,5 @@ padding:0px;
   font-weight: lighter;
   line-height: 1.7;
   font-family: 'tacoma', sans-serif;
+  text-align: center;
 }

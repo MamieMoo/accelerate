@@ -142,3 +142,62 @@ div.case-study-images  img{
       float: right;
 
   }
+  /* About Styles */
+  .aboutpage {
+      background: url("img/taxi-photo.jpg") no-repeat scroll left bottom / cover rgba(0, 0, 0, 0);
+      height: 280px;
+      margin: 0px 0px 0px 0px;
+      padding: 20px 0px;
+  }
+
+  .about-hero {
+  	text-align:center;
+  }
+
+  .about-hero h1 {
+  	color:white;
+  	font-weight:bold;
+  }
+
+  .about-hero h3 {
+      color: white;
+      font-family: "open sans";
+      font-size: 24px;
+      font-weight: normal;
+      margin: 70px 200px 70px 200px;
+      line-height: 35px;
+  }
+  .about-page{
+    text-align: center;;
+    font-size: 14px;
+    color: darkgray;
+    font-weight: normal;
+    line-height: normal;
+    font-family: 'cambria', sans-serif;
+    width:90%;
+  }
+.about-page-images{
+display: inline-block;
+vertical-align: baseline;
+padding:10px;
+}
+.about-page h1{
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+  line-height: normal;
+  font-family: 'cambria', sans-serif;
+}
+  .about-page h5{
+    font-size: 14px;
+    color: darkgray;
+    font-weight: normal;
+    line-height: normal;
+    font-family: 'cambria', sans-serif;
+}
+div.about-text-block{
+width:50%;
+display: inline-block;
+vertical-align: middle;
+text-align: left;
+}

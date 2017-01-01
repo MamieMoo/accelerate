@@ -174,30 +174,46 @@ div.case-study-images  img{
     font-weight: normal;
     line-height: normal;
     font-family: 'cambria', sans-serif;
-    width:90%;
+    width:100%;
   }
-.about-page-images{
-display: inline-block;
-vertical-align: baseline;
-padding:10px;
-}
+
 .about-page h1{
   font-size: 24px;
   color: black;
   font-weight: normal;
-  line-height: normal;
   font-family: 'cambria', sans-serif;
+  line-height: 0;
 }
   .about-page h5{
-    font-size: 14px;
-    color: darkgray;
-    font-weight: normal;
-    line-height: normal;
-    font-family: 'cambria', sans-serif;
+    font-size: 16px;
+    color: #595959;
+    font-weight: lighter;
+    line-height: 1.7;
+    font-family: 'tacoma', sans-serif;
+}
+.about-page-images{
+display: inline-block;
+vertical-align: baseline;
+padding:20px;
 }
 div.about-text-block{
 width:50%;
 display: inline-block;
 vertical-align: middle;
 text-align: left;
+padding:0px;
+}
+.blurb h2{
+  font-size: 16px;
+  color: black;
+  font-weight: bold;;
+  line-height: normal;
+  font-family: 'cambria', sans-serif;
+}
+.blurb h5{
+  font-size: 16px;
+  color: #595959;
+  font-weight: lighter;
+  line-height: 1.7;
+  font-family: 'tacoma', sans-serif;
 }

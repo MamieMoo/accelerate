@@ -24,6 +24,10 @@ get_header(); ?>
 	</div><!-- .container -->
 </section>
 <section class="about-page">
+	<div class="blurb">
+		<h2>OUR SERVICES</h2>
+		<h5>We take pride in our clients and the content we create for them. <br>Here's a brief overview of our offered services.</h5>
+	</div>
 	<div class="site-content">
 	<?php query_posts('post_type=our_services'); ?>
 		<?php while ( have_posts() ) : the_post();
@@ -35,6 +39,7 @@ get_header(); ?>
 		<figure class="about-page-images">
 						<?php echo wp_get_attachment_image($image_1, $size); ?>
 		</figure>
+
 					<div class="about-text-block">
 						<h1><?php the_title(); ?></h1>
 			  		<h5><?php the_excerpt(); ?></h5>

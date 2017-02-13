@@ -56,14 +56,16 @@ get_header(); ?>
 					<h2><?php the_title(); ?></h2>
 			        <?php the_excerpt(); ?>
 			        <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
-  <?php endwhile; ?>
-<?php wp_reset_query(); ?>
+							<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+									<div id="secondary" class="widget-area" role="complementary">
+										<?php dynamic_sidebar( 'sidebar-2' ); ?>
+									</div>
+								<?php endif; ?>
+  			<?php endwhile; ?>
+		<?php wp_reset_query(); ?>
+		</div>
 	</div>
 </section>
-<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-</div>
-<?php endif; ?>
+
 <?php get_footer(); ?>
 <!-- .home-page -->

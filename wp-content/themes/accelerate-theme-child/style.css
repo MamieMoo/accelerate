@@ -29,7 +29,8 @@
 		    background: none repeat scroll 0 0 #45ac9d;
 		}
 .blog-post {
-		width: 50%auto;
+		width: 40%;
+    float:left;
 }
 .blog-post h4 {
 		font-size: 16px;
@@ -251,4 +252,8 @@ padding:0px;
   line-height: 1.7;
   font-family: 'tacoma', sans-serif;
   text-align: center;
+}
+.widget-area{
+    float:right;
+
 }
